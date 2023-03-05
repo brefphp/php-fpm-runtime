@@ -1,3 +1,7 @@
+> **Warning**
+>
+> This repository was created during the beta version of Bref v2, but it was merged back into https://github.com/brefphp/bref shortly after. It has no reason to exist anymore and will be eventually deleted.
+
 This repository contains the PHP-FPM runtime code ([learn more about Bref runtimes](https://bref.sh/docs/runtimes/)).
 
 This code is included in the `fpm` Lambda runtime provided by Bref (see https://github.com/brefphp/aws-lambda-layers for the code that builds these layers using Docker). It basically turns HTTP Lambda events into PHP-FPM requests.
